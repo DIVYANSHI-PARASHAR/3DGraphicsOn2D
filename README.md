@@ -48,3 +48,7 @@ Draw-object. Here I have added 4 things:
         
         4 Draw face with interpolated color
 
+
+![image](https://user-images.githubusercontent.com/42567298/222999252-1f5131df-ad7d-4c74-a063-a722398b83bd.png)
+
+![image](https://user-images.githubusercontent.com/42567298/222999281-fddd8bfb-abb6-44fd-a79e-a3862d1b019c.png)
