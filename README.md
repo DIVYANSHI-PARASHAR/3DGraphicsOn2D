@@ -15,10 +15,10 @@ The coordinate frame of the window has been set such that:
 
 •	the origin is at the center of the window.
 
-Code explanation for wireframe.py:
+# Code explanation for wireframe.py:
 
 
-# I have first defined the colours to be used in the display of graphics followed by window size and center. Further, pygame has been initialized and I set up the display.
+I have first defined the colours to be used in the display of graphics followed by window size and center. Further, pygame has been initialized and I set up the display.
 
 First function is for reading the object from the file and another one is for drawing the object where the edges have been drawn along with the vertices with blue color.
 
@@ -27,7 +27,7 @@ Another function defined after the above two is Center-object where I get the av
 
 In the Main function, the following takes place:
 
-  # The object is centered around the origin and later scaled to fit the screen.
+  The object is centered around the origin and later scaled to fit the screen.
   
   An event loop has been set up where the mouse functionalities have been added as asked. First, I rotate object if mouse is being dragged. For this, I calculate horizontal and vertical mouse movement, rotation angles and then rotate the object about X and Y axes using 2 new functions. At last, the previous mouse position is updated. The screen is cleared for the object to be drawn and the display to be continuously updated while controlling the frame rate.
   
@@ -39,6 +39,7 @@ The function for rotating about x-axis includes getting the center of the object
 In faces.py, only one function has been modified:
 
 Draw-object. Here I have added 4 things:
+
         1 Compute face normal
         
         2 Compute angle with Z-axis
